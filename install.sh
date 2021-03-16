@@ -62,7 +62,7 @@ old_config_status="off"
 #Simple random number
 random_num=$((RANDOM%12+4))
 #Generate camouflage path
-camouflage="/$(head -n 10 /dev/urandom | md5sum | head -c ${random_num})/"
+camouflage="/"
 
 THREAD=$(grep 'processor' /proc/cpuinfo | sort -u | wc -l)
 
