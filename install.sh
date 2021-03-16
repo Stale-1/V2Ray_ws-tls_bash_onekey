@@ -60,7 +60,6 @@ old_config_status="off"
 [[ -f "/etc/v2ray/vmess_qr.json" ]] && mv /etc/v2ray/vmess_qr.json $v2ray_qr_config_file
 
 #Simple random number
-random_num=$((RANDOM%12+4))
 #Generate camouflage path
 camouflage="/"
 
